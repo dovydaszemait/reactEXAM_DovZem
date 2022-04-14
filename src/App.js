@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
+import ProtectedRoute from "./components/ProtectedRoute";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import AuthContext from "./store/authContext";
@@ -28,9 +29,10 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route path={"/"} exact>
-          <h1>HOME</h1>
-        </Route>
+        <ProtectedRoute path='/' exact >
+          <h1>Home</h1>
+
+        </ProtectedRoute>
         <Route path={"/login"}>
           <LoginPage />
         </Route>
