@@ -1,0 +1,19 @@
+.header {
+  background-color: rgba(116, 250, 245, 0.445);
+  color: rgb(161, 161, 161);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.navLink > a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: rgba(105, 219, 215, 0.74);
+}
