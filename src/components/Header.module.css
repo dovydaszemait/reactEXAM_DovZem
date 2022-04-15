@@ -1,12 +1,14 @@
 .header {
-  background-color: rgba(116, 250, 245, 0.445);
-  color: rgb(161, 161, 161);
+  background-color: #73c6b573 ;
+  color: #218099;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 5px;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .navLink > a {
@@ -15,5 +17,30 @@
   display: inline-block;
   padding: 5px 10px;
   margin-right: 10px;
-  background-color: rgba(105, 219, 215, 0.74);
+  background-color: #73c6b5a2 ;
+  border-radius: 5px;
+}
+
+.navLink > a:hover {
+    background-color: #87e7d2 ;
+}
+
+.mainLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  
+}
+
+.logoName {
+  color: #218099;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0 5px 5px 0;
 }
