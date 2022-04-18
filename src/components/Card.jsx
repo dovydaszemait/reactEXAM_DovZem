@@ -1,9 +1,15 @@
+import css from './Card.module.css';
+
 const Card = (props) => {
     return (
-      <div >
-        <h2>{props.title}</h2>
-        <p>{props.description}</p>
-      </div>
+      
+        <div className={css.cards}>
+          <div>
+        <h2 >Name: {props.title}</h2>
+        <p > Comment: {props.description}</p>
+        </div>
+        </div>
+      
     );
   };
   

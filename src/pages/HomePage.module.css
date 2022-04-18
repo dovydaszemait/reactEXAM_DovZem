@@ -1,0 +1,54 @@
+.app {
+  border: 1px solid black;
+max-width: 1400px;
+align-items: center;
+
+}
+
+
+
+.cards {
+max-height: 1000px;
+color: #218099;
+
+
+}
+
+
+.homeHead {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  color: #218099;
+  max-width: 900px;
+
+
+  
+}
+.homeHead2 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  color: #218099;
+  max-width: 900px;
+
+
+
+}
+
+.border {
+  background-color: rgba(255, 127, 127, 0.007);
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  border: 1px solid black;
+  color: #218099;
+}
+
+.border:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+  color: #218099;
+}

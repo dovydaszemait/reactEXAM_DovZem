@@ -60,7 +60,7 @@ function LoginPage() {
             <h2 className={css.login1}>Login to your account</h2>
             {isError && (
               <h3 className={css.err}>
-                Error! Please check the form !Please check your email or/and password 
+                Error! Check your email or/and password 
               </h3>
             )}
             <label htmlFor="email"> Email </label>

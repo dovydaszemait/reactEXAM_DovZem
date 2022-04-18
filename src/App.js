@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AddPage from "./pages/AddPage";
@@ -41,13 +42,14 @@ function App() {
         <Route path={"/register"}>
           <RegisterPage />
         </Route>
-        <Route path={"/add"}>
+        <ProtectedRoute path={"/add"}>
           <AddPage />
-        </Route>
+        </ProtectedRoute>
         <Route path={"*"}>
           <NotFound />
         </Route>
       </Switch>
+      <Footer />
     </div>
     </AuthContext.Provider>
   );

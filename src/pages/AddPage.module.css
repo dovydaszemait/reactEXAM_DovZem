@@ -1,0 +1,102 @@
+form {
+  background-color: #76d7c41e;
+  border: black solid 1px;
+  margin: 20px;
+  padding: 30px;
+  width: 800px;
+  height: 430px;
+  min-height: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  border: 1px solid black;
+  color: #218099;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+form:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+  color: #218099;
+  font-size: 20px;
+}
+
+.area {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  width: 500px;
+  min-height: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  border: 1px solid black;
+  color: #218099;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.area:hover{
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+  color: #218099;
+}
+
+input {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  min-height: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  border: 1px solid black;
+  color: #218099;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+input:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+  color: #218099;
+}
+
+.head3 {
+  margin-top: 1px;
+  display: flex;
+  color: #218099;
+}
+
+.head2{
+  margin-top: 35px;
+  margin-bottom: 30px;
+  display: flex;
+  color: #218099;
+
+}
+
+.title {
+  height: 30px;
+  width: 200px;
+  border-radius: 6px;
+
+}
+
+::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 15px;
+  font-weight: 600;
+  color: #0e607571;
+  font-style: italic;
+}
+
+.green {
+  color: rgb(10, 184, 10);
+}
