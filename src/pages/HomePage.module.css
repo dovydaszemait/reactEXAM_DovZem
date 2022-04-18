@@ -8,8 +8,11 @@ align-items: center;
 
 
 .cards {
-max-height: 1000px;
 color: #218099;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+
 
 
 }
@@ -51,4 +54,23 @@ color: #218099;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
   transform: scale(1.01);
   color: #218099;
+}
+
+.mainLogo {
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  
+}
+
+.logoName {
+  color: #218099;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0 5px 5px 0;
 }

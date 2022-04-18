@@ -5,7 +5,7 @@ import Button from "../components/UI/Button/Button";
 import Container from "../components/UI/Container";
 import AuthContext from "../store/authContext";
 import css from './LoginPage.module.css';
-
+import logo from "../components/UI/logo5.png";
 const loginUrl = 'https://autumn-delicate-wilderness.glitch.me/v1/auth/login';
 
 
@@ -57,6 +57,10 @@ function LoginPage() {
     return (
         <Container>
           <form onSubmit={formHandler} className={css.mainLogin}>
+          <div className={css.mainLogo}>
+          <img className={css.logo} src={logo} alt="" />
+          <p className={css.logoName}>DAILY DIARY</p>
+          </div>
             <h2 className={css.login1}>Login to your account</h2>
             {isError && (
               <h3 className={css.err}>

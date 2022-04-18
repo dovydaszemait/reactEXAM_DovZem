@@ -1,13 +1,19 @@
 import css from './Card.module.css';
+import Button from './UI/Button/Button';
 
-const Card = (props) => {
+function Card (props) {
+ 
+  
     return (
+      
       
         <div className={css.cards}>
           <div>
         <h2 >Name: {props.title}</h2>
         <p > Comment: {props.description}</p>
-        </div>
+        <Button onClick={props.onDelete}>Delete</Button>
+        
+            </div>
         </div>
       
     );

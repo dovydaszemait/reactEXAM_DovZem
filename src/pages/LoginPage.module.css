@@ -45,3 +45,23 @@ label{
     font-weight: 900;
     color: #218099;
 }
+
+.mainLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .logo {
+    width: 100px;
+    margin-left: 10px;
+    
+  }
+  
+  .logoName {
+    color: #218099;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 5px 5px 0;
+  }

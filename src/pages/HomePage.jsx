@@ -6,7 +6,7 @@ import Container from '../components/UI/Container';
 
 const homeUrl = 'https://autumn-delicate-wilderness.glitch.me/v1/content/skills';
 
-const Home = () => {
+const Home = (props) => {
   const [CardsArr, setCardsArr] = useState([]);
   const [isArr, setIsArr] = useState(false);
 
@@ -23,8 +23,15 @@ const Home = () => {
     }
   };
 
+  // function onDeleteHandler(CardsDelete) {
+  //   setCardsArr((prevState) => {
+  //     return prevState.filter((CardsObj) => CardsObj.id !== CardsDelete);
+  //   });
+  // }
+
   return (
   <Container className={css.border}>
+   
       <h2 className={css.homeHead}>Home page</h2>
       <p className={css.homeHead2}>Welcome to your Daily Diary log!</p>
     <div className={css.homepage}>
@@ -34,6 +41,7 @@ const Home = () => {
               key={sObj.id}
               title={sObj.title}
               description={sObj.description}
+              // onDelete={onDeleteHandler}
             />
           ))}
         {!isArr && <h2>There is not anything created yet.</h2>}

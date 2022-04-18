@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import Container from '../components/UI/Container';
 import Button from '../components/UI/Button/Button';
+import logo from "../components/UI/logo5.png";
+
 
 const regUrl = 'https://autumn-delicate-wilderness.glitch.me/v1/auth/register';
 
@@ -43,6 +45,10 @@ const RegisterPage = () => {
   return (
     <Container>
       <form onSubmit={submitHandler} className={css.mainLogin}>
+      <div className={css.mainLogo}>
+          <img className={css.logo} src={logo} alt="" />
+          <p className={css.logoName}>DAILY DIARY</p>
+          </div>
         <h2 className={css.login1}>Create an account</h2>
         {isError && (
           <h3 className={css.err}>

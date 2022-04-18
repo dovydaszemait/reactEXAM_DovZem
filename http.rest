@@ -1,15 +1,16 @@
 
 GET  https://autumn-delicate-wilderness.glitch.me/v1/content/skills
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAwLCJlbWFpbCI6ImRvdnplbUBtYW5nby5jb20iLCJpYXQiOjE2NTAwMTgzMDh9.7FUo2b1beFdsqmlEJqFrjek__g3L6wy10qz8ybam2E4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzQ1LCJlbWFpbCI6ImNhbmR5QG1hbmdvLmNvbSIsImlhdCI6MTY1MDMxODUwNH0.nPHZksaNvtny7L6BL0udVCFWE87dVti6c13X1mNppiI
+
 #####
 
 POST   https://autumn-delicate-wilderness.glitch.me/v1/content/skills
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAwLCJlbWFpbCI6ImRvdnplbUBtYW5nby5jb20iLCJpYXQiOjE2NTAwMTgzMDh9.7FUo2b1beFdsqmlEJqFrjek__g3L6wy10qz8ybam2E4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzQ1LCJlbWFpbCI6ImNhbmR5QG1hbmdvLmNvbSIsImlhdCI6MTY1MDMxODUwNH0.nPHZksaNvtny7L6BL0udVCFWE87dVti6c13X1mNppiI
 
 {
-"title": "Protein pancakes",
-"description": "Thats very yummy"
+"title": "Roberto Bananito",
+"description": "Today I made banana burgers. 6/10"
 }
 
 #####
@@ -17,7 +18,7 @@ POST https://autumn-delicate-wilderness.glitch.me/v1/auth/register
 Content-Type: application/json 
 
 {
-"email": "dovzem@mango.com",
+"email": "candy@mango.com",
 "password": "mango"
 }
 
@@ -26,6 +27,6 @@ POST https://autumn-delicate-wilderness.glitch.me/v1/auth/login
 Content-Type: application/json 
 
 {
-"email": "dovzem@mango.com",
+"email": "candy@mango.com",
 "password": "mango"
 }
