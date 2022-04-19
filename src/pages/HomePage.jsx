@@ -44,7 +44,7 @@ const Home = (props) => {
               // onDelete={onDeleteHandler}
             />
           ))}
-        {!isArr && <h2>There is not anything created yet.</h2>}
+        {!isArr && <h2>There isn't anything created yet.</h2>}
         </div>
         </div>
         </Container>

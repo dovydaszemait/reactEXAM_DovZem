@@ -41,11 +41,11 @@ const AddPage = () => {
 
   return (
     <Container>
-      <h2 className={css.head2}>Add new note</h2>
+      <h2 className={css.head2}>Add a new note</h2>
       <form onSubmit={submitHandler}>
         {message && <h3 className={css.green}>Succesfully added!</h3>}
         <div className={css.main}>
-            <h3 className={css.head3}> Add new note
+            <h3 className={css.head3}> Add a new note
 </h3>
         <input className={css.title}
           onChange={(e) => setTitle(e.target.value)}
