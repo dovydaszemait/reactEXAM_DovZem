@@ -19,3 +19,6 @@
 
 # Enjoy! ✌️
 
+![Screenshot 2022-04-19 at 11 39 28](https://user-images.githubusercontent.com/95608460/163972508-ab56cf69-8fd4-4638-8136-a7b2178c5207.png)
+![Screenshot 2022-04-19 at 11 39 53](https://user-images.githubusercontent.com/95608460/163972524-06d22057-f709-4263-a00d-0f043da3859c.png)
+![Screenshot 2022-04-19 at 11 40 04](https://user-images.githubusercontent.com/95608460/163972540-13dd2b0f-a1a2-4b75-b295-711e528795f7.png)
