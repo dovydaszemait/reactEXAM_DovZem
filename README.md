@@ -16,3 +16,6 @@
 ✅ styled-components 
 
 # Enjoy! ✌️
+![Screenshot 2022-04-19 at 11 39 28](https://user-images.githubusercontent.com/95608460/163961834-f99cdc4f-3b76-4a20-98e0-dc1614cd675c.png)
+![Screenshot 2022-04-19 at 11 39 53](https://user-images.githubusercontent.com/95608460/163961844-b5fa64f2-5f0c-4e51-aa19-d83a93ee6b21.png)
+![Screenshot 2022-04-19 at 11 40 04](https://user-images.githubusercontent.com/95608460/163961846-99a13475-026d-4ea0-a611-9db85ef6e478.png)
