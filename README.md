@@ -1,4 +1,6 @@
-# React Exam - reactEXAM is an asignment to create a React app that let's you register, login and add elements to your account. 
+# React Exam 
+ reactEXAM is an asignment to create a React app that let's you register, login and add elements to your account. 
+ 'Daily Diary' is an app that lets you make notes or comments about your day.
 # How to install and start
 1. git clone <this repository>
 2. npm i
