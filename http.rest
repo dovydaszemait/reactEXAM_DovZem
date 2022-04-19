@@ -1,12 +1,11 @@
 
 GET  https://autumn-delicate-wilderness.glitch.me/v1/content/skills
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzQ1LCJlbWFpbCI6ImNhbmR5QG1hbmdvLmNvbSIsImlhdCI6MTY1MDMxODUwNH0.nPHZksaNvtny7L6BL0udVCFWE87dVti6c13X1mNppiI
-
+Authorization: Bearer 
 #####
 
 POST   https://autumn-delicate-wilderness.glitch.me/v1/content/skills
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzQ1LCJlbWFpbCI6ImNhbmR5QG1hbmdvLmNvbSIsImlhdCI6MTY1MDMxODUwNH0.nPHZksaNvtny7L6BL0udVCFWE87dVti6c13X1mNppiI
+Authorization: Bearer 
 
 {
 "title": "Roberto Bananito",
