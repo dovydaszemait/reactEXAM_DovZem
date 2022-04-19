@@ -1,3 +1,5 @@
+
+
 export const getData = async (url, token) => {
     try {
       const resp = await fetch(`${url}`, {

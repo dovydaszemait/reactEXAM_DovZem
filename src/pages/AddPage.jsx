@@ -1,15 +1,15 @@
-import { useEffect, useState } from 'react';
-import Button from '../components/UI/Button/Button';
-import Container from '../components/UI/Container';
-import css from './AddPage.module.css';
+import React, { useEffect, useState } from "react";
+import Button from "../components/UI/Button/Button";
+import Container from "../components/UI/Container";
+import css from "./AddPage.module.css";
 
-const url = 'https://autumn-delicate-wilderness.glitch.me/v1/content/skills';
-const token = localStorage.getItem('token');
+const url = "https://autumn-delicate-wilderness.glitch.me/v1/content/skills";
+const token = localStorage.getItem("token");
 
 const AddPage = () => {
-  const [title, setTitle] = useState('');
-  const [description, setComment] = useState('');
-  const [message, setMessage] = useState('');
+  const [title, setTitle] = useState("");
+  const [description, setComment] = useState("");
+  const [message, setMessage] = useState("");
 
   useEffect(() => {}, []);
 
@@ -19,10 +19,10 @@ const AddPage = () => {
       description: description,
     };
     const resp = await fetch(url, {
-      method: 'POST',
+      method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(newPostObj),
     });
@@ -45,20 +45,20 @@ const AddPage = () => {
       <form onSubmit={submitHandler}>
         {message && <h3 className={css.green}>Succesfully added!</h3>}
         <div className={css.main}>
-            <h3 className={css.head3}> Add a new note
-</h3>
-        <input className={css.title}
-          onChange={(e) => setTitle(e.target.value)}
-          type='text'
-          placeholder='Enter your name here'
-        />
-        <label htmlFor='desc'></label>
-        <textarea
-          onChange={(e) => setComment (e.target.value)}
-          placeholder='Enter your comment'
-          className={css.area}
-        ></textarea>
-        <Button className={css.btn}> Submit </Button>
+          <h3 className={css.head3}> Add a new note</h3>
+          <input
+            className={css.title}
+            onChange={(e) => setTitle(e.target.value)}
+            type="text"
+            placeholder="Enter your name here"
+          />
+          <label htmlFor="desc"></label>
+          <textarea
+            onChange={(e) => setComment(e.target.value)}
+            placeholder="Enter your comment"
+            className={css.area}
+          ></textarea>
+          <Button className={css.btn}> Submit </Button>
         </div>
       </form>
     </Container>

@@ -12,13 +12,13 @@ import RegisterPage from "./pages/RegisterPage";
 import AuthContext from "./store/authContext";
 
 function App() {
-  const [isUserLoggedIn, setIsUserLoggedIn] = useState(false)
+  const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
   function login() {
-    console.log('App.js login');
+    console.log("App.js login");
     setIsUserLoggedIn(true);
   }
   function logout() {
-    console.log('App.js logout');
+    console.log("App.js logout");
     setIsUserLoggedIn(false);
   }
 
@@ -30,27 +30,27 @@ function App() {
 
   return (
     <AuthContext.Provider value={ctxValue}>
-    <div className="App">
-      <Header />
-      <Switch>
-        <ProtectedRoute path='/home' exact >
-          <HomePage />
-        </ProtectedRoute>
-        <Route path={"/login"}>
-          <LoginPage />
-        </Route>
-        <Route path={"/register"}>
-          <RegisterPage />
-        </Route>
-        <ProtectedRoute path={"/add"}>
-          <AddPage />
-        </ProtectedRoute>
-        <Route path={"*"}>
-          <NotFound />
-        </Route>
-      </Switch>
-      <Footer />
-    </div>
+      <div className="App">
+        <Header />
+        <Switch>
+          <ProtectedRoute path="/home" exact>
+            <HomePage />
+          </ProtectedRoute>
+          <Route path={"/login"}>
+            <LoginPage />
+          </Route>
+          <Route path={"/register"}>
+            <RegisterPage />
+          </Route>
+          <ProtectedRoute path={"/add"}>
+            <AddPage />
+          </ProtectedRoute>
+          <Route path={"*"}>
+            <NotFound />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
     </AuthContext.Provider>
   );
 }

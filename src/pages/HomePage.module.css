@@ -1,22 +1,15 @@
 .app {
   border: 1px solid black;
-max-width: 1400px;
-align-items: center;
-
+  max-width: 1400px;
+  align-items: center;
 }
-
-
 
 .cards {
-color: #218099;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 10px;
-
-
-
+  color: #218099;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
-
 
 .homeHead {
   display: flex;
@@ -24,9 +17,6 @@ grid-gap: 10px;
   margin: 30px;
   color: #218099;
   max-width: 900px;
-
-
-  
 }
 .homeHead2 {
   display: flex;
@@ -34,9 +24,6 @@ grid-gap: 10px;
   margin: 30px;
   color: #218099;
   max-width: 900px;
-
-
-
 }
 
 .border {
@@ -61,11 +48,9 @@ grid-gap: 10px;
   justify-content: center;
 }
 
-
 .logo {
   width: 100px;
   margin-left: 10px;
-  
 }
 
 .logoName {
