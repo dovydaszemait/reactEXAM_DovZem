@@ -9,8 +9,8 @@ function Card (props) {
       
         <div className={css.cards}>
           <div>
-        <h2 >Name: {props.title}</h2>
-        <p > Comment: {props.description}</p>
+       <h2>Name: {props.title}</h2>
+        <p> Comment: {props.description}</p>
         <Button onClick={props.onDelete}>Delete</Button>
         
             </div>

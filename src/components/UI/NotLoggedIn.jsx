@@ -7,6 +7,8 @@ import logo from "./logo5.png";
 
 function NotLoggedIn() {
   return (
+
+
    
     <Container className={css.cont}>
       <div className={css.mainLogo}>

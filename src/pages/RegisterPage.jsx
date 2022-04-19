@@ -4,9 +4,13 @@ import { useHistory } from 'react-router-dom';
 import Container from '../components/UI/Container';
 import Button from '../components/UI/Button/Button';
 import logo from "../components/UI/logo5.png";
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const regUrl = 'https://autumn-delicate-wilderness.glitch.me/v1/auth/register';
+
+
+const notify = () => toast.success('Successfully registered!');
 
 const RegisterPage = () => {
   const [email, setEmail] = useState('');
@@ -59,7 +63,8 @@ const RegisterPage = () => {
         <input className={css.login} type='email' onChange={(e) => setEmail(e.target.value)} id='email' placeholder='Enter your email here' value={email}/>
         <label htmlFor="password">Password</label>
         <input className={css.login} type='password' onChange={(e) => setPassword(e.target.value)} id='password' placeholder='Enter your password here' value={password}/>
-        <Button>Register</Button>
+        <Button onClick={notify}>Register</Button>
+        <Toaster />
       </form>
     </Container>
   );
